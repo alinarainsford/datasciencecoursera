@@ -27,7 +27,7 @@ features <- read.table("features.txt")
 activity_labels <- read.table("activity_labels.txt")
 
 #Step 2: Extract only mean and standard deviations from obs
-mean_std <- grep( "mean|std", features[,2])
+mean_std <- grep( "mean\\(\\)|std", features[,2])
 
 #Step 3: Merge test and train data sets 
 mergedX <- rbind(X_test, X_train)
