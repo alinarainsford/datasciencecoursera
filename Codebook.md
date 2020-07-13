@@ -24,3 +24,5 @@ The activity labels are:
 4 SITTING
 5 STANDING
 6 LAYING
+
+The original variables were transformed to only have the mean and standard deviation of each observation in the columns of the data.
